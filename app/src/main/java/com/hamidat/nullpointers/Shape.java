@@ -3,6 +3,7 @@ package com.hamidat.nullpointers;
 public abstract class Shape {
     private int x;
     private int y;
+    String color = "pink";
 
     // Constructor for the abstract class
     public Shape(int x, int y) {
